@@ -1,7 +1,7 @@
 ############## Spring App properties ###############
 spring:
   application:
-    name: '@project.artifactId@'
+    name: config-service
   config:
     import:
     - "optional:configserver:"
