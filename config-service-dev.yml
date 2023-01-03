@@ -15,7 +15,7 @@ spring:
     import: "configserver:" 
   cloud:
     config: 
-      uri: http://localhost:8888
+      uri: http://192.168.0.11:8888
       request-connect-timeout: 5000
       request-read-timeout: 5000
       #(Only for local environment, for production set true.)
