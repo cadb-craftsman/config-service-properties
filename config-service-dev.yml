@@ -12,7 +12,7 @@ spring:
     timeout-per-shutdown-phase: 15s  
   config:
     #(Only for local environment.)
-    import: "optional:configserver:" 
+    import: "configserver:" 
   cloud:
     config: 
       uri: http://localhost:8888
@@ -48,7 +48,7 @@ spring:
 eureka:
   client:
    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://192.168.0.11:8761/eureka/
 ############## Management properties ###############
 management:
   endpoints:
