@@ -15,7 +15,7 @@ spring:
     import: "configserver:" 
   cloud:
     config: 
-      uri: http://192.168.0.11:8888
+      uri: http://192.168.0.16:8888
       request-connect-timeout: 5000
       request-read-timeout: 5000
       #(Only for local environment, for production set true.)
@@ -48,7 +48,7 @@ spring:
 eureka:
   client:
    serviceUrl:
-      defaultZone: http://192.168.0.11:8761/eureka/
+      defaultZone: http://192.168.0.16:8761/eureka/
 ############## Management properties ###############
 management:
   endpoints:
